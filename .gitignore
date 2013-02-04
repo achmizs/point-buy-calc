@@ -1,0 +1,45 @@
+# Xcode
+# *.xcodeproj
+build/*
+.DS_Store
+*.p
+*.app
+*~.nib
+*~.xib
+*.swp
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata
+Info.plist
+
+
+# Ignore the Libraries.
+*.a
+
+# Ignore object files:
+*.o
+
+# Emacs temporary files:
+*~
+#*#
+
+# Ignore misc backup files:
+*.bak
+*.tmp
+
+# OS generated files:
+.DS_Store
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+.dep.inc

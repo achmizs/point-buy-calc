@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86E9EAEC16C045BC00E55A52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E9EAEB16C045BC00E55A52 /* UIKit.framework */; };
+		86E9EAEE16C045BC00E55A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E9EAED16C045BC00E55A52 /* Foundation.framework */; };
+		86E9EAF016C045BC00E55A52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E9EAEF16C045BC00E55A52 /* CoreGraphics.framework */; };
+		86E9EAF616C045BC00E55A52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EAF416C045BC00E55A52 /* InfoPlist.strings */; };
+		86E9EAF816C045BC00E55A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9EAF716C045BC00E55A52 /* main.m */; };
+		86E9EAFC16C045BC00E55A52 /* PBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9EAFB16C045BC00E55A52 /* PBCAppDelegate.m */; };
+		86E9EAFF16C045BC00E55A52 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EAFD16C045BC00E55A52 /* MainStoryboard.storyboard */; };
+		86E9EB0216C045BC00E55A52 /* PBCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9EB0116C045BC00E55A52 /* PBCMainViewController.m */; };
+		86E9EB0D16C046A500E55A52 /* PFBaseAbilityScores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB0C16C046A500E55A52 /* PFBaseAbilityScores.plist */; };
+		86E9EB1016C046F700E55A52 /* 3.5BaseAbilityScores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB0F16C046F700E55A52 /* 3.5BaseAbilityScores.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86E9EAE716C045BC00E55A52 /* Point Buy Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Point Buy Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E9EAEB16C045BC00E55A52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86E9EAED16C045BC00E55A52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86E9EAEF16C045BC00E55A52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86E9EAF316C045BC00E55A52 /* Point Buy Calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Point Buy Calc-Info.plist"; sourceTree = "<group>"; };
+		86E9EAF516C045BC00E55A52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86E9EAF716C045BC00E55A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86E9EAF916C045BC00E55A52 /* Point Buy Calc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Point Buy Calc-Prefix.pch"; sourceTree = "<group>"; };
+		86E9EAFA16C045BC00E55A52 /* PBCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBCAppDelegate.h; sourceTree = "<group>"; };
+		86E9EAFB16C045BC00E55A52 /* PBCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBCAppDelegate.m; sourceTree = "<group>"; };
+		86E9EAFE16C045BC00E55A52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		86E9EB0016C045BC00E55A52 /* PBCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBCMainViewController.h; sourceTree = "<group>"; };
+		86E9EB0116C045BC00E55A52 /* PBCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBCMainViewController.m; sourceTree = "<group>"; };
+		86E9EB0C16C046A500E55A52 /* PFBaseAbilityScores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PFBaseAbilityScores.plist; sourceTree = "<group>"; };
+		86E9EB0F16C046F700E55A52 /* 3.5BaseAbilityScores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.5BaseAbilityScores.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86E9EAE416C045BC00E55A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E9EAEC16C045BC00E55A52 /* UIKit.framework in Frameworks */,
+				86E9EAEE16C045BC00E55A52 /* Foundation.framework in Frameworks */,
+				86E9EAF016C045BC00E55A52 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86E9EADC16C045BC00E55A52 = {
+			isa = PBXGroup;
+			children = (
+				86E9EAF116C045BC00E55A52 /* Point Buy Calc */,
+				86E9EAEA16C045BC00E55A52 /* Frameworks */,
+				86E9EAE816C045BC00E55A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86E9EAE816C045BC00E55A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86E9EAE716C045BC00E55A52 /* Point Buy Calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86E9EAEA16C045BC00E55A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86E9EAEB16C045BC00E55A52 /* UIKit.framework */,
+				86E9EAED16C045BC00E55A52 /* Foundation.framework */,
+				86E9EAEF16C045BC00E55A52 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86E9EAF116C045BC00E55A52 /* Point Buy Calc */ = {
+			isa = PBXGroup;
+			children = (
+				86E9EAFA16C045BC00E55A52 /* PBCAppDelegate.h */,
+				86E9EAFB16C045BC00E55A52 /* PBCAppDelegate.m */,
+				86E9EAFD16C045BC00E55A52 /* MainStoryboard.storyboard */,
+				86E9EB0016C045BC00E55A52 /* PBCMainViewController.h */,
+				86E9EB0116C045BC00E55A52 /* PBCMainViewController.m */,
+				86E9EAF216C045BC00E55A52 /* Supporting Files */,
+				86E9EB0C16C046A500E55A52 /* PFBaseAbilityScores.plist */,
+				86E9EB0F16C046F700E55A52 /* 3.5BaseAbilityScores.plist */,
+			);
+			path = "Point Buy Calc";
+			sourceTree = "<group>";
+		};
+		86E9EAF216C045BC00E55A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86E9EAF316C045BC00E55A52 /* Point Buy Calc-Info.plist */,
+				86E9EAF416C045BC00E55A52 /* InfoPlist.strings */,
+				86E9EAF716C045BC00E55A52 /* main.m */,
+				86E9EAF916C045BC00E55A52 /* Point Buy Calc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86E9EAE616C045BC00E55A52 /* Point Buy Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86E9EB0516C045BC00E55A52 /* Build configuration list for PBXNativeTarget "Point Buy Calc" */;
+			buildPhases = (
+				86E9EAE316C045BC00E55A52 /* Sources */,
+				86E9EAE416C045BC00E55A52 /* Frameworks */,
+				86E9EAE516C045BC00E55A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Point Buy Calc";
+			productName = "Point Buy Calc";
+			productReference = 86E9EAE716C045BC00E55A52 /* Point Buy Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86E9EADE16C045BC00E55A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PBC;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Said Achmiz";
+			};
+			buildConfigurationList = 86E9EAE116C045BC00E55A52 /* Build configuration list for PBXProject "Point Buy Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86E9EADC16C045BC00E55A52;
+			productRefGroup = 86E9EAE816C045BC00E55A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86E9EAE616C045BC00E55A52 /* Point Buy Calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86E9EAE516C045BC00E55A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E9EAF616C045BC00E55A52 /* InfoPlist.strings in Resources */,
+				86E9EAFF16C045BC00E55A52 /* MainStoryboard.storyboard in Resources */,
+				86E9EB0D16C046A500E55A52 /* PFBaseAbilityScores.plist in Resources */,
+				86E9EB1016C046F700E55A52 /* 3.5BaseAbilityScores.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86E9EAE316C045BC00E55A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E9EAF816C045BC00E55A52 /* main.m in Sources */,
+				86E9EAFC16C045BC00E55A52 /* PBCAppDelegate.m in Sources */,
+				86E9EB0216C045BC00E55A52 /* PBCMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86E9EAF416C045BC00E55A52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E9EAF516C045BC00E55A52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86E9EAFD16C045BC00E55A52 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86E9EAFE16C045BC00E55A52 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86E9EB0316C045BC00E55A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86E9EB0416C045BC00E55A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86E9EB0616C045BC00E55A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Point Buy Calc/Point Buy Calc-Prefix.pch";
+				INFOPLIST_FILE = "Point Buy Calc/Point Buy Calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86E9EB0716C045BC00E55A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Point Buy Calc/Point Buy Calc-Prefix.pch";
+				INFOPLIST_FILE = "Point Buy Calc/Point Buy Calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86E9EAE116C045BC00E55A52 /* Build configuration list for PBXProject "Point Buy Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E9EB0316C045BC00E55A52 /* Debug */,
+				86E9EB0416C045BC00E55A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86E9EB0516C045BC00E55A52 /* Build configuration list for PBXNativeTarget "Point Buy Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E9EB0616C045BC00E55A52 /* Debug */,
+				86E9EB0716C045BC00E55A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86E9EADE16C045BC00E55A52 /* Project object */;
+}

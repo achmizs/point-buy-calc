@@ -13,37 +13,34 @@
 #include <map>
 #include <vector>
 #include "Race.h"
+#include "Ruleset.h"
 using namespace std;
 
 class Character
 {
 private:
-	string ruleset;
-	Race race;
+	const Ruleset *ruleset;
+	const Race *race;
 	
 	map <string, int> ability_scores;
-	
-	map <string, int> min_ability_scores;
-	map <string, int> max_ability_scores;
-	vector <int> point_costs;
 	
 	int point_buy_value;
 	int points_remaining;
 	
 public:
 	// Constructors
-	Character(string ruleset);
-	Character(string ruleset, Race race);
+	Character(Ruleset* ruleset);
+	Character(Ruleset* ruleset, Race* race);
 	
 	// Accessors
-	string getRuleset()
+	const Ruleset* getRuleset()
 		{ return ruleset; }
-	void setRuleset(string r)
+	void setRuleset(Ruleset* r)
 		{ ruleset = r; }
 	
-	Race getRace()
+	const Race* getRace()
 		{ return race; }
-	void setRace(Race r)
+	void setRace(Race* r)
 		{ race = r; }
 	
 	int getPointBuyValue()

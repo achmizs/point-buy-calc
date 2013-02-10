@@ -11,13 +11,13 @@ using namespace std;
 
 // Constructors
 
-Character::Character(string ruleset):
+Character::Character(Ruleset* ruleset):
 ruleset(ruleset)
 {
 	
 }
 
-Character::Character(string ruleset, Race race):
+Character::Character(Ruleset* ruleset, Race* race):
 ruleset(ruleset),
 race(race)
 {
@@ -30,14 +30,13 @@ void Character::increment_ability_score(string ability)
 {
 	int score = ability_scores[ability];
 	
-	if(score < max_ability_scores[ability])
+	if(score < ruleset->maxAbilityScore(ability))
 	{
-		int cost_increase = point_costs[score + 1] - point_costs[score];
+		int cost_increase = ruleset->pointCost(score + 1) - ruleset->pointCost(score);
 		if(points_remaining >= cost_increase)
 		{
 			points_remaining -= cost_increase;
-			score++;
-			ability_scores[ability] = score;
+			ability_scores[ability] = ++score;
 		}
 	}
 }
@@ -46,11 +45,10 @@ void Character::decrement_ability_score(string ability)
 {
 	int score = ability_scores[ability];
 	
-	if(score > min_ability_scores[ability])
+	if(score > ruleset->minAbilityScore(ability))
 	{
-		int cost_decrease = point_costs[score] - point_costs[score - 1];
+		int cost_decrease = ruleset->pointCost(score) - ruleset->pointCost(score - 1);
 		points_remaining += cost_decrease;
-		score++;
-		ability_scores[ability] = score;
+		ability_scores[ability] = --score;
 	}
 }

@@ -15,8 +15,15 @@
 		86E9EAFC16C045BC00E55A52 /* PBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9EAFB16C045BC00E55A52 /* PBCAppDelegate.m */; };
 		86E9EAFF16C045BC00E55A52 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EAFD16C045BC00E55A52 /* MainStoryboard.storyboard */; };
 		86E9EB0216C045BC00E55A52 /* PBCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9EB0116C045BC00E55A52 /* PBCMainViewController.m */; };
-		86E9EB0D16C046A500E55A52 /* PFBaseAbilityScores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB0C16C046A500E55A52 /* PFBaseAbilityScores.plist */; };
-		86E9EB1016C046F700E55A52 /* 3.5BaseAbilityScores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB0F16C046F700E55A52 /* 3.5BaseAbilityScores.plist */; };
+		86E9EB1D16C1BD4800E55A52 /* PBCCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E9EB1C16C1BD4800E55A52 /* PBCCharacter.m */; };
+		86E9EB2216C1CED600E55A52 /* Rulesets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB2116C1CED600E55A52 /* Rulesets.plist */; };
+		86E9EB2416C1CF1200E55A52 /* DND_3_5_ruleset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB2316C1CF1100E55A52 /* DND_3_5_ruleset.plist */; };
+		86E9EB2616C1CF3A00E55A52 /* PATHFINDER_ruleset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB2516C1CF3A00E55A52 /* PATHFINDER_ruleset.plist */; };
+		86E9EB2816C1E58800E55A52 /* DND_3_5_races.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB2716C1E58800E55A52 /* DND_3_5_races.plist */; };
+		86E9EB2A16C1EB5700E55A52 /* PATHFINDER_races.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E9EB2916C1EB5700E55A52 /* PATHFINDER_races.plist */; };
+		86ECD13C16C5E6F300B0BCA4 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86ECD13A16C5E6F300B0BCA4 /* Character.cpp */; };
+		86ECD13F16C60AE900B0BCA4 /* Race.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86ECD13D16C60AE900B0BCA4 /* Race.cpp */; };
+		86ECD14216C77BAD00B0BCA4 /* Ruleset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86ECD14016C77BAD00B0BCA4 /* Ruleset.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +40,19 @@
 		86E9EAFE16C045BC00E55A52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		86E9EB0016C045BC00E55A52 /* PBCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBCMainViewController.h; sourceTree = "<group>"; };
 		86E9EB0116C045BC00E55A52 /* PBCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBCMainViewController.m; sourceTree = "<group>"; };
-		86E9EB0C16C046A500E55A52 /* PFBaseAbilityScores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PFBaseAbilityScores.plist; sourceTree = "<group>"; };
-		86E9EB0F16C046F700E55A52 /* 3.5BaseAbilityScores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.5BaseAbilityScores.plist; sourceTree = "<group>"; };
+		86E9EB1B16C1BD4800E55A52 /* PBCCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCCharacter.h; sourceTree = "<group>"; };
+		86E9EB1C16C1BD4800E55A52 /* PBCCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCCharacter.m; sourceTree = "<group>"; };
+		86E9EB2116C1CED600E55A52 /* Rulesets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rulesets.plist; sourceTree = "<group>"; };
+		86E9EB2316C1CF1100E55A52 /* DND_3_5_ruleset.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DND_3_5_ruleset.plist; sourceTree = "<group>"; };
+		86E9EB2516C1CF3A00E55A52 /* PATHFINDER_ruleset.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PATHFINDER_ruleset.plist; sourceTree = "<group>"; };
+		86E9EB2716C1E58800E55A52 /* DND_3_5_races.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DND_3_5_races.plist; sourceTree = "<group>"; };
+		86E9EB2916C1EB5700E55A52 /* PATHFINDER_races.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PATHFINDER_races.plist; sourceTree = "<group>"; };
+		86ECD13A16C5E6F300B0BCA4 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		86ECD13B16C5E6F300B0BCA4 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		86ECD13D16C60AE900B0BCA4 /* Race.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Race.cpp; sourceTree = "<group>"; };
+		86ECD13E16C60AE900B0BCA4 /* Race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Race.h; sourceTree = "<group>"; };
+		86ECD14016C77BAD00B0BCA4 /* Ruleset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ruleset.cpp; sourceTree = "<group>"; };
+		86ECD14116C77BAD00B0BCA4 /* Ruleset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ruleset.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +105,19 @@
 				86E9EB0016C045BC00E55A52 /* PBCMainViewController.h */,
 				86E9EB0116C045BC00E55A52 /* PBCMainViewController.m */,
 				86E9EAF216C045BC00E55A52 /* Supporting Files */,
-				86E9EB0C16C046A500E55A52 /* PFBaseAbilityScores.plist */,
-				86E9EB0F16C046F700E55A52 /* 3.5BaseAbilityScores.plist */,
+				86E9EB1B16C1BD4800E55A52 /* PBCCharacter.h */,
+				86E9EB1C16C1BD4800E55A52 /* PBCCharacter.m */,
+				86ECD13E16C60AE900B0BCA4 /* Race.h */,
+				86ECD13D16C60AE900B0BCA4 /* Race.cpp */,
+				86ECD13B16C5E6F300B0BCA4 /* Character.h */,
+				86ECD13A16C5E6F300B0BCA4 /* Character.cpp */,
+				86ECD14116C77BAD00B0BCA4 /* Ruleset.h */,
+				86ECD14016C77BAD00B0BCA4 /* Ruleset.cpp */,
+				86E9EB2116C1CED600E55A52 /* Rulesets.plist */,
+				86E9EB2316C1CF1100E55A52 /* DND_3_5_ruleset.plist */,
+				86E9EB2516C1CF3A00E55A52 /* PATHFINDER_ruleset.plist */,
+				86E9EB2716C1E58800E55A52 /* DND_3_5_races.plist */,
+				86E9EB2916C1EB5700E55A52 /* PATHFINDER_races.plist */,
 			);
 			path = "Point Buy Calc";
 			sourceTree = "<group>";
@@ -158,8 +187,11 @@
 			files = (
 				86E9EAF616C045BC00E55A52 /* InfoPlist.strings in Resources */,
 				86E9EAFF16C045BC00E55A52 /* MainStoryboard.storyboard in Resources */,
-				86E9EB0D16C046A500E55A52 /* PFBaseAbilityScores.plist in Resources */,
-				86E9EB1016C046F700E55A52 /* 3.5BaseAbilityScores.plist in Resources */,
+				86E9EB2216C1CED600E55A52 /* Rulesets.plist in Resources */,
+				86E9EB2416C1CF1200E55A52 /* DND_3_5_ruleset.plist in Resources */,
+				86E9EB2616C1CF3A00E55A52 /* PATHFINDER_ruleset.plist in Resources */,
+				86E9EB2816C1E58800E55A52 /* DND_3_5_races.plist in Resources */,
+				86E9EB2A16C1EB5700E55A52 /* PATHFINDER_races.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +205,10 @@
 				86E9EAF816C045BC00E55A52 /* main.m in Sources */,
 				86E9EAFC16C045BC00E55A52 /* PBCAppDelegate.m in Sources */,
 				86E9EB0216C045BC00E55A52 /* PBCMainViewController.m in Sources */,
+				86E9EB1D16C1BD4800E55A52 /* PBCCharacter.m in Sources */,
+				86ECD13C16C5E6F300B0BCA4 /* Character.cpp in Sources */,
+				86ECD13F16C60AE900B0BCA4 /* Race.cpp in Sources */,
+				86ECD14216C77BAD00B0BCA4 /* Ruleset.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

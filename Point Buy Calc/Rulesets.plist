@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DND_3_5</key>
+	<string>Dungeons &amp; Dragons v3.5</string>
+	<key>PATHFINDER</key>
+	<string>Pathfinder Roleplaying Game</string>
+</dict>
+</plist>

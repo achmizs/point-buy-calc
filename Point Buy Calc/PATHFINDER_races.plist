@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>human</key>
+	<dict>
+		<key>name</key>
+		<string>Human</string>
+		<key>Strength</key>
+		<integer>0</integer>
+		<key>Dexterity</key>
+		<integer>0</integer>
+		<key>Constitution</key>
+		<integer>0</integer>
+		<key>Intelligence</key>
+		<integer>0</integer>
+		<key>Wisdom</key>
+		<integer>0</integer>
+		<key>Charisma</key>
+		<integer>0</integer>
+		<key>specialRules</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>
